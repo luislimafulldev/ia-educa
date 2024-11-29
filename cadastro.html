@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - IA Educa</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">IA Educa</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cadastro">
+            <img src="./img/ia.jpg" alt="Imagem de um robô">
+            <h2>Cadastre-se</h2>
+            <form action="login.html"> <!-- Simulando redirecionamento -->
+                <input type="text" name="nome" placeholder="Nome completo" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <!-- <label for="nivel_conhecimento">Nível de conhecimento em IA:</label> -->
+                <select name="nivel_conhecimento" id="nivel_conhecimento" required>
+                    <option value="" disabled selected>Nível de conhecimento em IA</option>
+                    <option value="iniciante">Iniciante</option>
+                    <option value="intermediario">Intermediário</option>
+                    <option value="avancado">Avançado</option>
+                </select>
+                <input type="password" name="senha" placeholder="Senha" required>
+                <input type="password" name="confirmar_senha" placeholder="Confirmar senha" required>
+                <input type="text" name="cidade" placeholder="Cidade" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IA Educa. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

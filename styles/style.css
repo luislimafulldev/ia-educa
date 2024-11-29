@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif; /* Fonte Arial como padrão */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Cor do texto escura */
+}
+
+header {
+    background-color: #007bff; /* Cor azul para o cabeçalho */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Courier New', monospace;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+main .cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .cadastro img {
+    max-width: 500px;
+    border-radius: 16px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #0056b3; /* Cor azul mais escura para o título */
+
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature img {
+    max-width: 100px;
+    height: auto;
+}
+
+.imagem-destaque {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Estilos para o formulário de cadastro */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

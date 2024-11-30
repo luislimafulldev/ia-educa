@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 body {
-    font-family: 'Arial', sans-serif; /* Fonte Arial como padrão */
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Cor de fundo clara */
-    color: #333; /* Cor do texto escura */
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background-color: #007bff; /* Cor azul para o cabeçalho */
+    background-color: #007bff;
     color: #fff;
     padding: 1rem 0;
 }
@@ -120,6 +122,24 @@ main .cadastro img {
     height: auto;
     display: block;
     margin: 20px auto;
+}
+
+.button-about {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.about button {
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 20px;
+}
+
+.about button:hover {
+    background-color: #0056b3;
 }
 
 footer {

@@ -11,7 +11,17 @@ ODS 4 - Educação de Qualidade
 
 ## Descrição do Projeto
 
-Este projeto visa democratizar o acesso à educação em Inteligência Artificial, alinhado com o ODS 4 (Educação de Qualidade), fornecendo uma plataforma online com recursos educacionais gratuitos e acessíveis.  Acreditamos que a educação em IA deve ser para todos, independentemente de sua formação ou localização geográfica.  A IA Educa busca empoderar indivíduos com o conhecimento e as habilidades necessárias para prosperar em um mundo cada vez mais impulsionado pela Inteligência Artificial.
+### Objetivo do Serviço Proposto
+
+O projeto IA Educa visa democratizar o acesso à educação em Inteligência Artificial (IA), alinhando-se com o Objetivo de Desenvolvimento Sustentável (ODS) 4 - Educação de Qualidade. A plataforma oferece recursos educacionais gratuitos e acessíveis, permitindo que qualquer pessoa, independentemente de sua formação ou localização geográfica, possa adquirir conhecimentos e habilidades em IA. A missão do IA Educa é empoderar indivíduos para prosperar em um mundo cada vez mais impulsionado pela tecnologia de IA.
+
+### Público-Alvo
+
+O público-alvo do IA Educa inclui estudantes, profissionais e qualquer pessoa interessada em aprender sobre Inteligência Artificial. A plataforma é projetada para atender desde iniciantes, que estão dando os primeiros passos no campo da IA, até profissionais que buscam aprimorar seus conhecimentos e habilidades.
+
+### ODS Atendido
+
+O projeto IA Educa está alinhado com o ODS 4 - Educação de Qualidade. Este objetivo visa assegurar a educação inclusiva, equitativa e de qualidade, promovendo oportunidades de aprendizagem ao longo da vida para todos. A IA Educa contribui para este objetivo ao oferecer uma plataforma educacional acessível e gratuita, focada em um campo de conhecimento essencial para o futuro.
 
 ## Estrutura do Projeto
 

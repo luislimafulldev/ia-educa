@@ -72,6 +72,7 @@ IA Educa/
 1. Clone o repositório
 ```bash
 git clone https://github.com/luislimafulldev/ia-educa.git
+```
 
 ## Contribuição
 

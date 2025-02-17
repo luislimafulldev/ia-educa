@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin - IA Educa</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html" class="logo">IA Educa</a>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="#">Cursos</a></li>
+          <li><a href="#">Recursos</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="admin-section">
+        <h2>Painel Administrativo</h2>
+        <div class="admin-container">
+          <form id="adminForm">
+            <input
+              type="text"
+              id="nome"
+              placeholder="Nome do usuário"
+              required
+            />
+            <input type="email" id="email" placeholder="E-mail" required />
+            <div class="admin-buttons">
+              <button type="submit">Cadastrar</button>
+              <button type="button" id="limparCampos">Limpar Campos</button>
+              <button type="button" id="limparTudo">Excluir Todos</button>
+            </div>
+          </form>
+
+          <div class="search-container">
+            <input
+              type="text"
+              id="pesquisa"
+              placeholder="Pesquisar usuários..."
+            />
+          </div>
+
+          <ul id="listaUsuarios"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 IA Educa. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./js/admin.js"></script>
+  </body>
+</html>

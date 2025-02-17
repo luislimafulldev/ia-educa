@@ -28,7 +28,10 @@ O projeto IA Educa está alinhado com o ODS 4 - Educação de Qualidade. Este ob
 ```
 IA Educa/
 ├── index.html
+├── admin.html
 ├── cadastro.html
+├── js/
+│   └── admin.js
 ├── css/
 │   └── style.css
 └── img/
@@ -36,7 +39,9 @@ IA Educa/
 
 * **`index.html`:** Contém o código HTML da página principal, apresentando a plataforma IA Educa.
 * **`cadastro.html`:** Contém o código HTML da página de cadastro de usuários.
-* **`css/style.css`:** Arquivo CSS principal, contendo os estilos para a página principal e a página de cadastro.
+* **`admin.html`:** Contém o código HTML da página administrativa para gerenciamento de usuários.
+* **`css/style.css`:** Arquivo CSS principal, contendo os estilos para todas as páginas do projeto.
+* **`js/admin.js`:** Arquivo JavaScript com as funcionalidades da área administrativa (cadastro, pesquisa e gerenciamento de usuários).
 * **`img/`:** Diretório contendo as imagens utilizadas no projeto.
 
 
@@ -44,15 +49,30 @@ IA Educa/
 
 * HTML5
 * CSS3
+* JavaScript (DOM API e Web Storage API)
 
-## Instalação
+## 🔥 Funcionalidades
 
-1. Faça o download ou clone este repositório.
-2. Abra o arquivo `index.html` em seu navegador web.
+### Página Principal
+- Navegação intuitiva
+- Interface moderna e responsiva
+- Acesso à área administrativa
 
-## Utilização
+### Área Administrativa
+- Cadastro de usuários (nome e email)
+- Visualização em lista com data de cadastro
+- Armazenamento local (LocalStorage)
+- Pesquisa de usuários
+- Exclusão individual de registros
+- Exclusão em massa
+- Limpeza de formulário
 
-Navegue pela plataforma utilizando o menu de navegação no cabeçalho.  A página principal apresenta informações sobre o projeto e seus recursos.  A página de cadastro permite que novos usuários se registrem na plataforma (ainda sem funcionalidade de back-end).
+## 🚀 Instalação
+
+1. Clone o repositório
+```bash
+git clone https://github.com/luislimafulldev/ia-educa.git
+```
 
 ## Contribuição
 
